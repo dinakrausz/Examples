@@ -10,7 +10,7 @@ from matplotlib import image
 from matplotlib import pyplot
 
 #load image as pixel array
-data = image.imread('personal.jpg')
+data = image.imread('personal0.jpg')
 
 #data info
 print('data type: ', data.dtype)

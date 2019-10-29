@@ -9,13 +9,13 @@ load, display, save image
 from PIL import Image
 
 #load image
-#image = Image.open('opera_house.jpg')
-image = Image.open('personal.jpg')
+#image = Image.open('Sydney opera house.jpg')
+image = Image.open('personal0.jpg')
 
 #print image details
-print('image format: ', image.format)
-print('image mode: ', image.mode)
-print('image size ', image.size)
+print('image format: ', image.format)  #image format JPEG OR PNG
+print('image mode: ', image.mode)      #pixel channel format (RGB or CMYK)
+print('image size ', image.size)       #the dimention of the image in pixels
 
 #show the image
 image.show()
